@@ -1,0 +1,74 @@
+body {
+    display: grid;
+    place-items: center;
+    background:#343868;
+    color: white;
+    font-size: 15pt;
+    font-family: Oxygen sans-serif;
+}
+
+.h1 {
+  background: #000000;
+  padding: 50px;
+  padding-right: 253px;
+  padding-left: 253px;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-weight: Bold;
+  margin-bottom: 300px;
+}
+
+.d1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2F3053;
+  border-radius: 60px;
+  box-shadow: 10px 10px 10px white;
+  color: #fff;
+  width: 500px;
+  height: 500px;
+}
+
+.emailtext {
+  display: block;
+  width: 300px;
+  height: 60px;
+  border-style: solid;
+  border-color: black;
+    border-radius: 10px;
+    
+}
+
+.passw {
+  display: block;
+  width: 300px;
+  height: 60px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.submit:hover {
+  font-family: Bold ,arial;
+  font-weight: bold;
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  opacity: 0.5;
+}
+
+.submit {
+  font-family: Bold, arial;
+  font-weight: bold;
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px white;
+}
